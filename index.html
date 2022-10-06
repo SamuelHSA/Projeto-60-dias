@@ -1,23 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar</title>
-</head>
-<body>
-    <div class="titulo">
-        <h1>Seja bem vindo ao seu site de Músicas</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a> </li>
-                <li><a href="trap.html">Trap</a></li>
-                <li><a href="funk.html">Funk</a></li>
-                <li><a href="sertanejo.html">Sertanejo</a></li>
-            </ul>
-        </nav>
-        
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="public/css/index.css">
+        <link rel="stylesheet" href="public/css/all-musica.css">
+        <link rel="stylesheet" href="public/css/header.css">
+        <title>Músicas</title>
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <section>
+                    <div class="back">
+                        <img class="voltar" src="public/imagens/Voltar-removebg.png" alt="Logo voltar" width="200px">
+                    </div>
+                    <div class="header-menu"></div>
+                </section>
+                
+                <section class="imagens-logo">
+                    <a href="trap.html" class="logo-trap">
+                        <img src="public/imagens/img-trap.jpg" alt="Logo trap" width="15%">
+                    </a>
+                    
+                    <a href="funk.html" class="logo-funk">
+                    <img src="public/imagens/img-funk.jpg" alt="Logo funk" width="15%"></a>
+                
+                    <a href="sertanejo.html" class="logo-sertanejo">
+                    <img src="public/imagens/img-sertanejo.png" alt="Logo sertanejo" width="18%"></a>
+                </section>
+            
+            <!-- menu generos musicais 
+                <nav class="menu">
+                    <li class="menu-item"><a href="trap.html">Só traps nacionais</a></li>
+                    <li class="menu-item"><a href="funk.html">Os melhores funks</a></li>
+                    <li class="menu-item"><a href="sertanejo.html">Os melhores sertanejos</a></li>
+                </nav>
+            -->
+            </header>
+        </main>
+
+            <video width="80%" height="80%" controls autoplay loop muted preload>Seu navegador não suporta a tag vídeo
+                <source src="public/videos/L7NNON - Vim De Lá (prod. Nagalli).mp4" type="video/mp4">
+            </video>
+            <section>
+                <div>                   
+                    <p class="texto-musica">Música provoca boas sensações, 
+                        controla o emocional e melhora a atenção. 
+                        A música estimula a produção de substâncias relacionadas ao prazer, 
+                        além de regular nossos sentimentos e ajudar na concentração.
+                    </p>
+                </div>
+            </section>
+    </body>
 </html>

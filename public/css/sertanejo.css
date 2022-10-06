@@ -1,0 +1,11 @@
+
+
+nav, ul, li, a {
+    display: inline;
+}
+
+.img-aud-sertanejo {
+    text-align: center;
+    border-style: solid;
+    border-width: medium;
+}

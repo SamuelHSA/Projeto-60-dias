@@ -1,0 +1,38 @@
+
+a {
+    font-family: Verdana;
+    font-weight: 600;
+}
+
+video, source {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 0;
+
+}
+
+.texto-musica {
+    color: rgb(250, 0, 62);
+    text-align: center;
+}
+
+.texto-musica {
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu-item {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px 20px 35px 35px;
+}
+
+.voltar {
+    display: block;
+    padding: 0px 50px 50px 0px; 
+}
